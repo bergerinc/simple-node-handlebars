@@ -1,5 +1,5 @@
 # simple-node-handlebars
-Simple Node app with express and handlebars for training
+Simple Node app with express and handlebars for developer training
 
 
 # Quick start
