@@ -136,7 +136,7 @@ button {
   font-size: 2.4em;
   font-weight: bolder;
   letter-spacing: -2px;
-  margin: auto 0 10px -3px;
+  margin: 0 0 10px -3px;
   padding: 0;
   text-align: left;
   width: 100%
@@ -200,14 +200,21 @@ button {
 nav.top {
   display: flex;
   flex-direction: row;
-  flex-grow: 1fr;
+  height: 38px;
   justify-content: left;
   margin: auto 20% auto 19%;
+  max-height: 38px;
+  min-height: 38px;
+  padding: 0;
+  overflow: hidden;
 }
 
 nav.top a {
+  align-content: center;
+  border: none;
+  box-sizing: border-box;
   color: #fff;
-  flex-grow: 1fr;
+  margin: auto 0;
   padding: 10px 20px;
   text-decoration: none;
 }
