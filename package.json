@@ -1,0 +1,20 @@
+{
+  "name": "simple-node-handlebars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Berger",
+  "license": "ISC",
+  "keywords": [],
+  "description": "Simple node web app using express and handlebars",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
