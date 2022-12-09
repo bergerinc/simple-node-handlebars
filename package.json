@@ -11,7 +11,7 @@
   "keywords": [],
   "description": "Simple node web app using express and handlebars",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-handlebars": "^3.0.0"
   },
   "devDependencies": {
